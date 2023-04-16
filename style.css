@@ -17,6 +17,7 @@ body {
 
 .nav__link {
 	color: #303440;
+	text-decoration: none;
 }
 
 .nav__link--inside {
@@ -26,7 +27,7 @@ body {
 }
 
 .nav__link--inside:hover {
-	background: #F6F8Fa;
+	background: #EAEBEF;
 }
 
 .list {
@@ -44,6 +45,9 @@ body {
 	width: 100%;
 	text-align: center;
 	overflow: hidden;
+}
+.list__inside {
+	padding: .2rem;
 }
 
 .list__item--click {
@@ -73,7 +77,7 @@ body {
 .list__show {
 	width: 80%;
 	margin-left: auto;
-	border-left: .3rem solid #303440; 
+	border-left: .1rem solid #303440; 
 	list-style: none;
 	transition: height .4s;
 	height: 0;
